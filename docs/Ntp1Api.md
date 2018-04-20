@@ -1,6 +1,6 @@
 # Ntp1Api
 
-All URIs are relative to *https://ntp1node.nebl.io:1443*
+All URIs are relative to *https://ntp1node.nebl.io*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -11,6 +11,7 @@ Method | HTTP request | Description
 [**getTokenId**](Ntp1Api.md#getTokenId) | **GET** /ntp1/tokenid/{tokensymbol} | Returns the tokenId representing a token
 [**getTokenMetadataOfIssuance**](Ntp1Api.md#getTokenMetadataOfIssuance) | **GET** /ntp1/tokenmetadata/{tokenid} | Get Issuance Metadata of Token
 [**getTokenMetadataOfUtxo**](Ntp1Api.md#getTokenMetadataOfUtxo) | **GET** /ntp1/tokenmetadata/{tokenid}/{utxo} | Get UTXO Metadata of Token
+[**getTransactionInfo**](Ntp1Api.md#getTransactionInfo) | **GET** /ntp1/transactioninfo/{txid} | Information On an NTP1 Transaction
 [**issueToken**](Ntp1Api.md#issueToken) | **POST** /ntp1/issue | Builds a transaction that issues a new NTP1 Token
 [**sendToken**](Ntp1Api.md#sendToken) | **POST** /ntp1/sendtoken | Builds a transaction that sends an NTP1 Token
 
@@ -246,7 +247,7 @@ No authorization required
 
 Get Issuance Metadata of Token
 
-Returns the metadata associated with a token at time of issuance.  
+Returns the metadata associated with a token at time of issuance. 
 
 ### Example
 ```java
@@ -322,6 +323,51 @@ Name | Type | Description  | Notes
 ### Return type
 
 [**GetTokenMetadataResponse**](GetTokenMetadataResponse.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: application/json
+ - **Accept**: application/json
+
+<a name="getTransactionInfo"></a>
+# **getTransactionInfo**
+> GetTransactionInfoResponse getTransactionInfo(txid)
+
+Information On an NTP1 Transaction
+
+Returns detailed information regarding an NTP1 transaction. 
+
+### Example
+```java
+// Import classes:
+//import io.swagger.client.ApiException;
+//import io.swagger.client.api.Ntp1Api;
+
+
+Ntp1Api apiInstance = new Ntp1Api();
+String txid = "txid_example"; // String | Neblio txid to get information on.
+try {
+    GetTransactionInfoResponse result = apiInstance.getTransactionInfo(txid);
+    System.out.println(result);
+} catch (ApiException e) {
+    System.err.println("Exception when calling Ntp1Api#getTransactionInfo");
+    e.printStackTrace();
+}
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **txid** | **String**| Neblio txid to get information on. |
+
+### Return type
+
+[**GetTransactionInfoResponse**](GetTransactionInfoResponse.md)
 
 ### Authorization
 
