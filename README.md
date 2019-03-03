@@ -2,7 +2,7 @@
 
 Neblio REST API Suite
 - API version: 1.2.1
-  - Build date: 2019-03-03T23:42:59.729Z[UTC]
+  - Build date: 2019-03-03T23:51:56.315Z[UTC]
 
 APIs for Interacting with NTP1 Tokens & The Neblio Blockchain
 
