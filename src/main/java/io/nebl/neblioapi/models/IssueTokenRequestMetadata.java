@@ -34,7 +34,7 @@ import java.util.List;
  * Object representing all metadata at token issuance
  */
 @ApiModel(description = "Object representing all metadata at token issuance")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T01:28:12.717Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T01:54:04.924Z[UTC]")
 public class IssueTokenRequestMetadata {
   public static final String SERIALIZED_NAME_TOKEN_NAME = "tokenName";
   @SerializedName(SERIALIZED_NAME_TOKEN_NAME)

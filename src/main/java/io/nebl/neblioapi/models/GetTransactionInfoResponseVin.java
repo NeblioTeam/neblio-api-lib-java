@@ -33,7 +33,7 @@ import java.util.List;
 /**
  * GetTransactionInfoResponseVin
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T01:28:12.717Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T01:54:04.924Z[UTC]")
 public class GetTransactionInfoResponseVin {
   public static final String SERIALIZED_NAME_TXID = "txid";
   @SerializedName(SERIALIZED_NAME_TXID)
