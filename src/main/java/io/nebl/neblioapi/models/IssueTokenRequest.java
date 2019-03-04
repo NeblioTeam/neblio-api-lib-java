@@ -33,7 +33,7 @@ import java.util.List;
 /**
  * IssueTokenRequest
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T00:22:10.400Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T00:35:41.443Z[UTC]")
 public class IssueTokenRequest {
   public static final String SERIALIZED_NAME_ISSUE_ADDRESS = "issueAddress";
   @SerializedName(SERIALIZED_NAME_ISSUE_ADDRESS)
