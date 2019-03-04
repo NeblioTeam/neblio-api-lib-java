@@ -32,7 +32,7 @@ import java.util.List;
 /**
  * BurnTokenRequest
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T02:29:08.708Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T02:32:31.926Z[UTC]")
 public class BurnTokenRequest {
   public static final String SERIALIZED_NAME_FEE = "fee";
   @SerializedName(SERIALIZED_NAME_FEE)
