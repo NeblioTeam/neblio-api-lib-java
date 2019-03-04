@@ -27,7 +27,7 @@ import java.io.IOException;
 /**
  * GetRawTxResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T03:30:01.628Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T03:35:36.528Z[UTC]")
 public class GetRawTxResponse {
   public static final String SERIALIZED_NAME_RAWTX = "rawtx";
   @SerializedName(SERIALIZED_NAME_RAWTX)
