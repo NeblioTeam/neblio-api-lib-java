@@ -30,7 +30,7 @@ import java.util.List;
 /**
  * GetTransactionInfoResponsePreviousOutput
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T02:32:31.926Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T02:40:07.902Z[UTC]")
 public class GetTransactionInfoResponsePreviousOutput {
   public static final String SERIALIZED_NAME_ASM = "asm";
   @SerializedName(SERIALIZED_NAME_ASM)

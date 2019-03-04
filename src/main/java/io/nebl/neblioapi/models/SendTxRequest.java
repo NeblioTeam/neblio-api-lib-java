@@ -27,7 +27,7 @@ import java.io.IOException;
 /**
  * SendTxRequest
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T02:32:31.926Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T02:40:07.902Z[UTC]")
 public class SendTxRequest {
   public static final String SERIALIZED_NAME_TX_HEX = "txHex";
   @SerializedName(SERIALIZED_NAME_TX_HEX)
