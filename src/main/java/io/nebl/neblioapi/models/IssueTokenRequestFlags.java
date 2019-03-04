@@ -28,7 +28,7 @@ import java.io.IOException;
  * Object representing flags that potentialy modify this transaction
  */
 @ApiModel(description = "Object representing flags that potentialy modify this transaction")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T04:19:08.389Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T05:08:16.752Z[UTC]")
 public class IssueTokenRequestFlags {
   public static final String SERIALIZED_NAME_SPLIT_CHANGE = "splitChange";
   @SerializedName(SERIALIZED_NAME_SPLIT_CHANGE)

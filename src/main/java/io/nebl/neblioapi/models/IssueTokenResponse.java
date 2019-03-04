@@ -27,7 +27,7 @@ import java.io.IOException;
 /**
  * IssueTokenResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T04:19:08.389Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T05:08:16.752Z[UTC]")
 public class IssueTokenResponse {
   public static final String SERIALIZED_NAME_TOKEN_ID = "tokenId";
   @SerializedName(SERIALIZED_NAME_TOKEN_ID)
