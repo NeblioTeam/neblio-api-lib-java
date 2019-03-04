@@ -13,7 +13,7 @@
 
 package io.nebl.neblioapi;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T03:23:07.655Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T03:30:01.628Z[UTC]")
 public class Configuration {
     private static ApiClient defaultApiClient = new ApiClient();
 
