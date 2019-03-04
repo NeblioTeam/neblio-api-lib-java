@@ -28,7 +28,7 @@ import java.math.BigDecimal;
 /**
  * GetTokenHoldersResponseHolders
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T03:35:36.528Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T04:19:08.389Z[UTC]")
 public class GetTokenHoldersResponseHolders {
   public static final String SERIALIZED_NAME_ADDRESS = "address";
   @SerializedName(SERIALIZED_NAME_ADDRESS)
