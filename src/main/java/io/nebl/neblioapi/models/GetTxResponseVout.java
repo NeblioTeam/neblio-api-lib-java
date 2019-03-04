@@ -29,7 +29,7 @@ import java.math.BigDecimal;
 /**
  * GetTxResponseVout
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T00:35:41.443Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T00:38:31.867Z[UTC]")
 public class GetTxResponseVout {
   public static final String SERIALIZED_NAME_VALUE = "value";
   @SerializedName(SERIALIZED_NAME_VALUE)

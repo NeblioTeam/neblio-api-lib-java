@@ -30,7 +30,7 @@ import java.util.List;
 /**
  * SendTokenResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T00:35:41.443Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T00:38:31.867Z[UTC]")
 public class SendTokenResponse {
   public static final String SERIALIZED_NAME_TX_HEX = "txHex";
   @SerializedName(SERIALIZED_NAME_TX_HEX)
