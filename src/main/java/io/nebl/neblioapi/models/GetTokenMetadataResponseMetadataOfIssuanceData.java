@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * GetTokenMetadataResponseMetadataOfIssuanceData
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T01:17:56.598Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T01:28:12.717Z[UTC]")
 public class GetTokenMetadataResponseMetadataOfIssuanceData {
   public static final String SERIALIZED_NAME_TOKEN_NAME = "tokenName";
   @SerializedName(SERIALIZED_NAME_TOKEN_NAME)
