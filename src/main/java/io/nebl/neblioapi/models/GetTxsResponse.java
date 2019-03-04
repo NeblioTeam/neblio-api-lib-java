@@ -32,7 +32,7 @@ import java.util.List;
  * Object containing an array of transaction objects
  */
 @ApiModel(description = "Object containing an array of transaction objects")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-03T23:56:10.124Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T00:22:10.400Z[UTC]")
 public class GetTxsResponse {
   public static final String SERIALIZED_NAME_PAGES_TOTAL = "pagesTotal";
   @SerializedName(SERIALIZED_NAME_PAGES_TOTAL)
