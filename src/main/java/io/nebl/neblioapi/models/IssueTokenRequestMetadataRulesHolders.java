@@ -27,7 +27,7 @@ import java.io.IOException;
 /**
  * IssueTokenRequestMetadataRulesHolders
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T01:54:04.924Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T02:29:08.708Z[UTC]")
 public class IssueTokenRequestMetadataRulesHolders {
   public static final String SERIALIZED_NAME_ADDRESS = "address";
   @SerializedName(SERIALIZED_NAME_ADDRESS)
