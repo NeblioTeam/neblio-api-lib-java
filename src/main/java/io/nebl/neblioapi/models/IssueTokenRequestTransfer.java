@@ -28,7 +28,7 @@ import java.math.BigDecimal;
 /**
  * IssueTokenRequestTransfer
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T02:40:07.902Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T03:23:07.655Z[UTC]")
 public class IssueTokenRequestTransfer {
   public static final String SERIALIZED_NAME_ADDRESS = "address";
   @SerializedName(SERIALIZED_NAME_ADDRESS)
