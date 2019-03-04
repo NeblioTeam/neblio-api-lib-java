@@ -28,7 +28,7 @@ import java.io.IOException;
  * Object containing the JSON response from the Neblio node.
  */
 @ApiModel(description = "Object containing the JSON response from the Neblio node.")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T00:38:31.867Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T00:43:12.517Z[UTC]")
 public class RpcResponse {
   public static final String SERIALIZED_NAME_RESULT = "result";
   @SerializedName(SERIALIZED_NAME_RESULT)

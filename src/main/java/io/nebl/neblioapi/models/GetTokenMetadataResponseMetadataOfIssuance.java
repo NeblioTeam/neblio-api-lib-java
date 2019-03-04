@@ -29,7 +29,7 @@ import java.io.IOException;
  * Metadata set at issuance
  */
 @ApiModel(description = "Metadata set at issuance")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T00:38:31.867Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T00:43:12.517Z[UTC]")
 public class GetTokenMetadataResponseMetadataOfIssuance {
   public static final String SERIALIZED_NAME_DATA = "data";
   @SerializedName(SERIALIZED_NAME_DATA)

@@ -30,7 +30,7 @@ import java.util.List;
 /**
  * GetAddressResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T00:38:31.867Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T00:43:12.517Z[UTC]")
 public class GetAddressResponse {
   public static final String SERIALIZED_NAME_ADDR_STR = "addrStr";
   @SerializedName(SERIALIZED_NAME_ADDR_STR)
