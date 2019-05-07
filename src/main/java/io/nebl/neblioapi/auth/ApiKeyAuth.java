@@ -18,7 +18,7 @@ import io.nebl.neblioapi.Pair;
 import java.util.Map;
 import java.util.List;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-05-07T22:14:41.519Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-05-07T22:19:41.714Z[UTC]")
 public class ApiKeyAuth implements Authentication {
   private final String location;
   private final String paramName;

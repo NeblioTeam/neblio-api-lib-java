@@ -28,7 +28,7 @@ import java.io.IOException;
 /**
  * GetFaucetResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-05-07T22:14:41.519Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-05-07T22:19:41.714Z[UTC]")
 public class GetFaucetResponse {
   public static final String SERIALIZED_NAME_STATUS = "status";
   @SerializedName(SERIALIZED_NAME_STATUS)

@@ -29,7 +29,7 @@ import java.math.BigDecimal;
  * Object containing node sync status
  */
 @ApiModel(description = "Object containing node sync status")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-05-07T22:14:41.519Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-05-07T22:19:41.714Z[UTC]")
 public class GetSyncResponse {
   public static final String SERIALIZED_NAME_STATUS = "status";
   @SerializedName(SERIALIZED_NAME_STATUS)

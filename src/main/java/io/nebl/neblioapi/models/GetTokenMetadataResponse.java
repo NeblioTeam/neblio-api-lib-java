@@ -29,11 +29,15 @@ import java.math.BigDecimal;
 /**
  * GetTokenMetadataResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-05-07T22:14:41.519Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-05-07T22:19:41.714Z[UTC]")
 public class GetTokenMetadataResponse {
   public static final String SERIALIZED_NAME_TOKEN_ID = "tokenId";
   @SerializedName(SERIALIZED_NAME_TOKEN_ID)
   private String tokenId;
+
+  public static final String SERIALIZED_NAME_SOME_UTXO = "someUtxo";
+  @SerializedName(SERIALIZED_NAME_SOME_UTXO)
+  private String someUtxo;
 
   public static final String SERIALIZED_NAME_DIVISIBILITY = "divisibility";
   @SerializedName(SERIALIZED_NAME_DIVISIBILITY)
@@ -103,6 +107,24 @@ public class GetTokenMetadataResponse {
 
   public void setTokenId(String tokenId) {
     this.tokenId = tokenId;
+  }
+
+  public GetTokenMetadataResponse someUtxo(String someUtxo) {
+    this.someUtxo = someUtxo;
+    return this;
+  }
+
+   /**
+   * Example UTXO containing this token.
+   * @return someUtxo
+  **/
+  @ApiModelProperty(value = "Example UTXO containing this token.")
+  public String getSomeUtxo() {
+    return someUtxo;
+  }
+
+  public void setSomeUtxo(String someUtxo) {
+    this.someUtxo = someUtxo;
   }
 
   public GetTokenMetadataResponse divisibility(BigDecimal divisibility) {
@@ -350,6 +372,7 @@ public class GetTokenMetadataResponse {
     }
     GetTokenMetadataResponse getTokenMetadataResponse = (GetTokenMetadataResponse) o;
     return Objects.equals(this.tokenId, getTokenMetadataResponse.tokenId) &&
+        Objects.equals(this.someUtxo, getTokenMetadataResponse.someUtxo) &&
         Objects.equals(this.divisibility, getTokenMetadataResponse.divisibility) &&
         Objects.equals(this.lockStatus, getTokenMetadataResponse.lockStatus) &&
         Objects.equals(this.aggregationPolicy, getTokenMetadataResponse.aggregationPolicy) &&
@@ -367,7 +390,7 @@ public class GetTokenMetadataResponse {
 
   @Override
   public int hashCode() {
-    return Objects.hash(tokenId, divisibility, lockStatus, aggregationPolicy, totalSupply, numOfHolders, numOfTransfers, numOfIssuance, numOfBurns, firstBlock, issuanceTxid, issueAddress, metadataOfIssuence, metadataOfUtxo);
+    return Objects.hash(tokenId, someUtxo, divisibility, lockStatus, aggregationPolicy, totalSupply, numOfHolders, numOfTransfers, numOfIssuance, numOfBurns, firstBlock, issuanceTxid, issueAddress, metadataOfIssuence, metadataOfUtxo);
   }
 
 
@@ -376,6 +399,7 @@ public class GetTokenMetadataResponse {
     StringBuilder sb = new StringBuilder();
     sb.append("class GetTokenMetadataResponse {\n");
     sb.append("    tokenId: ").append(toIndentedString(tokenId)).append("\n");
+    sb.append("    someUtxo: ").append(toIndentedString(someUtxo)).append("\n");
     sb.append("    divisibility: ").append(toIndentedString(divisibility)).append("\n");
     sb.append("    lockStatus: ").append(toIndentedString(lockStatus)).append("\n");
     sb.append("    aggregationPolicy: ").append(toIndentedString(aggregationPolicy)).append("\n");
