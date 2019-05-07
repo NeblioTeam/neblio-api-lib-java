@@ -33,7 +33,7 @@ import java.util.List;
  * Object describing token rules
  */
 @ApiModel(description = "Object describing token rules")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T05:08:16.752Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-05-07T21:59:11.910Z[UTC]")
 public class IssueTokenRequestMetadataRules {
   public static final String SERIALIZED_NAME_FEES = "fees";
   @SerializedName(SERIALIZED_NAME_FEES)

@@ -31,7 +31,7 @@ import java.util.List;
  * Metadata set by user on token
  */
 @ApiModel(description = "Metadata set by user on token")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-03-04T05:08:16.752Z[UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-05-07T21:59:11.910Z[UTC]")
 public class GetTokenMetadataResponseMetadataOfIssuanceDataUserData {
   public static final String SERIALIZED_NAME_META = "meta";
   @SerializedName(SERIALIZED_NAME_META)
