@@ -1,5 +1,5 @@
 
-# GetTokenMetadataResponseMetadataOfIssuanceDataUserDataMeta
+# GetTokenMetadataResponseMetadataOfIssuenceDataUserDataMeta
 
 ## Properties
 Name | Type | Description | Notes

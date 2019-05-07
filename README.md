@@ -1,8 +1,8 @@
 # neblioapi
 
 Neblio REST API Suite
-- API version: 1.2.1
-  - Build date: 2019-05-07T21:59:11.910Z[UTC]
+- API version: 1.2.2
+  - Build date: 2019-05-07T22:14:41.519Z[UTC]
 
 APIs for Interacting with NTP1 Tokens & The Neblio Blockchain
 
@@ -124,7 +124,7 @@ Class | Method | HTTP request | Description
 *Ntp1Api* | [**getAddressInfo**](docs/Ntp1Api.md#getAddressInfo) | **GET** /ntp1/addressinfo/{address} | Information On a Neblio Address
 *Ntp1Api* | [**getTokenHolders**](docs/Ntp1Api.md#getTokenHolders) | **GET** /ntp1/stakeholders/{tokenid} | Get Addresses Holding a Token
 *Ntp1Api* | [**getTokenId**](docs/Ntp1Api.md#getTokenId) | **GET** /ntp1/tokenid/{tokensymbol} | Returns the tokenId representing a token
-*Ntp1Api* | [**getTokenMetadataOfIssuance**](docs/Ntp1Api.md#getTokenMetadataOfIssuance) | **GET** /ntp1/tokenmetadata/{tokenid} | Get Issuance Metadata of Token
+*Ntp1Api* | [**getTokenMetadata**](docs/Ntp1Api.md#getTokenMetadata) | **GET** /ntp1/tokenmetadata/{tokenid} | Get Metadata of Token
 *Ntp1Api* | [**getTokenMetadataOfUtxo**](docs/Ntp1Api.md#getTokenMetadataOfUtxo) | **GET** /ntp1/tokenmetadata/{tokenid}/{utxo} | Get UTXO Metadata of Token
 *Ntp1Api* | [**getTransactionInfo**](docs/Ntp1Api.md#getTransactionInfo) | **GET** /ntp1/transactioninfo/{txid} | Information On an NTP1 Transaction
 *Ntp1Api* | [**issueToken**](docs/Ntp1Api.md#issueToken) | **POST** /ntp1/issue | Builds a transaction that issues a new NTP1 Token
@@ -149,7 +149,7 @@ Class | Method | HTTP request | Description
 *TestnetNtp1Api* | [**testnetGetAddressInfo**](docs/TestnetNtp1Api.md#testnetGetAddressInfo) | **GET** /testnet/ntp1/addressinfo/{address} | Information On a Neblio Address
 *TestnetNtp1Api* | [**testnetGetTokenHolders**](docs/TestnetNtp1Api.md#testnetGetTokenHolders) | **GET** /testnet/ntp1/stakeholders/{tokenid} | Get Addresses Holding a Token
 *TestnetNtp1Api* | [**testnetGetTokenId**](docs/TestnetNtp1Api.md#testnetGetTokenId) | **GET** /testnet/ntp1/tokenid/{tokensymbol} | Returns the tokenId representing a token
-*TestnetNtp1Api* | [**testnetGetTokenMetadataOfIssuance**](docs/TestnetNtp1Api.md#testnetGetTokenMetadataOfIssuance) | **GET** /testnet/ntp1/tokenmetadata/{tokenid} | Get Issuance Metadata of Token
+*TestnetNtp1Api* | [**testnetGetTokenMetadata**](docs/TestnetNtp1Api.md#testnetGetTokenMetadata) | **GET** /testnet/ntp1/tokenmetadata/{tokenid} | Get Metadata of Token
 *TestnetNtp1Api* | [**testnetGetTokenMetadataOfUtxo**](docs/TestnetNtp1Api.md#testnetGetTokenMetadataOfUtxo) | **GET** /testnet/ntp1/tokenmetadata/{tokenid}/{utxo} | Get UTXO Metadata of Token
 *TestnetNtp1Api* | [**testnetGetTransactionInfo**](docs/TestnetNtp1Api.md#testnetGetTransactionInfo) | **GET** /testnet/ntp1/transactioninfo/{txid} | Information On an NTP1 Transaction
 *TestnetNtp1Api* | [**testnetIssueToken**](docs/TestnetNtp1Api.md#testnetIssueToken) | **POST** /testnet/ntp1/issue | Builds a transaction that issues a new NTP1 Token
@@ -178,10 +178,10 @@ Class | Method | HTTP request | Description
  - [GetTokenHoldersResponseHolders](docs/GetTokenHoldersResponseHolders.md)
  - [GetTokenIdResponse](docs/GetTokenIdResponse.md)
  - [GetTokenMetadataResponse](docs/GetTokenMetadataResponse.md)
- - [GetTokenMetadataResponseMetadataOfIssuance](docs/GetTokenMetadataResponseMetadataOfIssuance.md)
- - [GetTokenMetadataResponseMetadataOfIssuanceData](docs/GetTokenMetadataResponseMetadataOfIssuanceData.md)
- - [GetTokenMetadataResponseMetadataOfIssuanceDataUserData](docs/GetTokenMetadataResponseMetadataOfIssuanceDataUserData.md)
- - [GetTokenMetadataResponseMetadataOfIssuanceDataUserDataMeta](docs/GetTokenMetadataResponseMetadataOfIssuanceDataUserDataMeta.md)
+ - [GetTokenMetadataResponseMetadataOfIssuence](docs/GetTokenMetadataResponseMetadataOfIssuence.md)
+ - [GetTokenMetadataResponseMetadataOfIssuenceData](docs/GetTokenMetadataResponseMetadataOfIssuenceData.md)
+ - [GetTokenMetadataResponseMetadataOfIssuenceDataUserData](docs/GetTokenMetadataResponseMetadataOfIssuenceDataUserData.md)
+ - [GetTokenMetadataResponseMetadataOfIssuenceDataUserDataMeta](docs/GetTokenMetadataResponseMetadataOfIssuenceDataUserDataMeta.md)
  - [GetTransactionInfoResponse](docs/GetTransactionInfoResponse.md)
  - [GetTransactionInfoResponsePreviousOutput](docs/GetTransactionInfoResponsePreviousOutput.md)
  - [GetTransactionInfoResponseScriptSig](docs/GetTransactionInfoResponseScriptSig.md)

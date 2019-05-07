@@ -11,13 +11,13 @@ Name | Type | Description | Notes
 **totalSupply** | [**BigDecimal**](BigDecimal.md) | Total number of tokens in supply |  [optional]
 **numOfHolders** | [**BigDecimal**](BigDecimal.md) | Total number of addresses this token is held at |  [optional]
 **numOfTransfers** | [**BigDecimal**](BigDecimal.md) | Total number of transactions of this token |  [optional]
-**numofIssuance** | [**BigDecimal**](BigDecimal.md) | Total number of times this token has been issued |  [optional]
+**numOfIssuance** | [**BigDecimal**](BigDecimal.md) | Total number of times this token has been issued |  [optional]
 **numOfBurns** | [**BigDecimal**](BigDecimal.md) | Number of times tokens have been burned |  [optional]
 **firstBlock** | [**BigDecimal**](BigDecimal.md) | Block number token was issued in |  [optional]
 **issuanceTxid** | **String** | TXID the token was issued with |  [optional]
 **issueAddress** | **String** | Address that issued the tokens |  [optional]
-**metadataOfIssuance** | [**GetTokenMetadataResponseMetadataOfIssuance**](GetTokenMetadataResponseMetadataOfIssuance.md) |  |  [optional]
-**metadataOfUtxo** | [**GetTokenMetadataResponseMetadataOfIssuance**](GetTokenMetadataResponseMetadataOfIssuance.md) |  |  [optional]
+**metadataOfIssuence** | [**GetTokenMetadataResponseMetadataOfIssuence**](GetTokenMetadataResponseMetadataOfIssuence.md) |  |  [optional]
+**metadataOfUtxo** | [**GetTokenMetadataResponseMetadataOfIssuence**](GetTokenMetadataResponseMetadataOfIssuence.md) |  |  [optional]
 
 
 
