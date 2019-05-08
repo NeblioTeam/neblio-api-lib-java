@@ -1,8 +1,8 @@
 # neblioapi
 
 Neblio REST API Suite
-- API version: 1.2.2
-  - Build date: 2019-05-07T22:19:41.714Z[UTC]
+- API version: 1.2.3
+  - Build date: 2019-05-08T22:14:06.585Z[UTC]
 
 APIs for Interacting with NTP1 Tokens & The Neblio Blockchain
 
@@ -182,6 +182,8 @@ Class | Method | HTTP request | Description
  - [GetTokenMetadataResponseMetadataOfIssuenceData](docs/GetTokenMetadataResponseMetadataOfIssuenceData.md)
  - [GetTokenMetadataResponseMetadataOfIssuenceDataUserData](docs/GetTokenMetadataResponseMetadataOfIssuenceDataUserData.md)
  - [GetTokenMetadataResponseMetadataOfIssuenceDataUserDataMeta](docs/GetTokenMetadataResponseMetadataOfIssuenceDataUserDataMeta.md)
+ - [GetTokenMetadataResponseMetadataOfUtxo](docs/GetTokenMetadataResponseMetadataOfUtxo.md)
+ - [GetTokenMetadataResponseMetadataOfUtxoUserData](docs/GetTokenMetadataResponseMetadataOfUtxoUserData.md)
  - [GetTransactionInfoResponse](docs/GetTransactionInfoResponse.md)
  - [GetTransactionInfoResponsePreviousOutput](docs/GetTransactionInfoResponsePreviousOutput.md)
  - [GetTransactionInfoResponseScriptSig](docs/GetTransactionInfoResponseScriptSig.md)

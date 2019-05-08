@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 **issuanceTxid** | **String** | TXID the token was issued with |  [optional]
 **issueAddress** | **String** | Address that issued the tokens |  [optional]
 **metadataOfIssuence** | [**GetTokenMetadataResponseMetadataOfIssuence**](GetTokenMetadataResponseMetadataOfIssuence.md) |  |  [optional]
-**metadataOfUtxo** | [**GetTokenMetadataResponseMetadataOfIssuence**](GetTokenMetadataResponseMetadataOfIssuence.md) |  |  [optional]
+**metadataOfUtxo** | [**GetTokenMetadataResponseMetadataOfUtxo**](GetTokenMetadataResponseMetadataOfUtxo.md) |  |  [optional]
 
 
 

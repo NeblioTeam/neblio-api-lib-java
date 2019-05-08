@@ -28,21 +28,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Metadata set by user on token
+ * Metadata set by user on token for UTXO
  */
-@ApiModel(description = "Metadata set by user on token")
+@ApiModel(description = "Metadata set by user on token for UTXO")
 @javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-05-08T22:14:06.585Z[UTC]")
-public class GetTokenMetadataResponseMetadataOfIssuenceDataUserData {
+public class GetTokenMetadataResponseMetadataOfUtxoUserData {
   public static final String SERIALIZED_NAME_META = "meta";
   @SerializedName(SERIALIZED_NAME_META)
   private List<GetTokenMetadataResponseMetadataOfIssuenceDataUserDataMeta> meta = new ArrayList<GetTokenMetadataResponseMetadataOfIssuenceDataUserDataMeta>();
 
-  public GetTokenMetadataResponseMetadataOfIssuenceDataUserData meta(List<GetTokenMetadataResponseMetadataOfIssuenceDataUserDataMeta> meta) {
+  public GetTokenMetadataResponseMetadataOfUtxoUserData meta(List<GetTokenMetadataResponseMetadataOfIssuenceDataUserDataMeta> meta) {
     this.meta = meta;
     return this;
   }
 
-  public GetTokenMetadataResponseMetadataOfIssuenceDataUserData addMetaItem(GetTokenMetadataResponseMetadataOfIssuenceDataUserDataMeta metaItem) {
+  public GetTokenMetadataResponseMetadataOfUtxoUserData addMetaItem(GetTokenMetadataResponseMetadataOfIssuenceDataUserDataMeta metaItem) {
     if (this.meta == null) {
       this.meta = new ArrayList<GetTokenMetadataResponseMetadataOfIssuenceDataUserDataMeta>();
     }
@@ -72,8 +72,8 @@ public class GetTokenMetadataResponseMetadataOfIssuenceDataUserData {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    GetTokenMetadataResponseMetadataOfIssuenceDataUserData getTokenMetadataResponseMetadataOfIssuenceDataUserData = (GetTokenMetadataResponseMetadataOfIssuenceDataUserData) o;
-    return Objects.equals(this.meta, getTokenMetadataResponseMetadataOfIssuenceDataUserData.meta);
+    GetTokenMetadataResponseMetadataOfUtxoUserData getTokenMetadataResponseMetadataOfUtxoUserData = (GetTokenMetadataResponseMetadataOfUtxoUserData) o;
+    return Objects.equals(this.meta, getTokenMetadataResponseMetadataOfUtxoUserData.meta);
   }
 
   @Override
@@ -85,7 +85,7 @@ public class GetTokenMetadataResponseMetadataOfIssuenceDataUserData {
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
-    sb.append("class GetTokenMetadataResponseMetadataOfIssuenceDataUserData {\n");
+    sb.append("class GetTokenMetadataResponseMetadataOfUtxoUserData {\n");
     sb.append("    meta: ").append(toIndentedString(meta)).append("\n");
     sb.append("}");
     return sb.toString();

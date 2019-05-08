@@ -20,35 +20,37 @@ import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
+import io.nebl.neblioapi.models.GetTokenMetadataResponseMetadataOfUtxoUserData;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
 
 /**
- * GetRawTxResponse
+ * Metadata set for UTXO
  */
+@ApiModel(description = "Metadata set for UTXO")
 @javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2019-05-08T22:14:06.585Z[UTC]")
-public class GetRawTxResponse {
-  public static final String SERIALIZED_NAME_RAWTX = "rawtx";
-  @SerializedName(SERIALIZED_NAME_RAWTX)
-  private String rawtx;
+public class GetTokenMetadataResponseMetadataOfUtxo {
+  public static final String SERIALIZED_NAME_USER_DATA = "userData";
+  @SerializedName(SERIALIZED_NAME_USER_DATA)
+  private GetTokenMetadataResponseMetadataOfUtxoUserData userData = null;
 
-  public GetRawTxResponse rawtx(String rawtx) {
-    this.rawtx = rawtx;
+  public GetTokenMetadataResponseMetadataOfUtxo userData(GetTokenMetadataResponseMetadataOfUtxoUserData userData) {
+    this.userData = userData;
     return this;
   }
 
    /**
-   * Raw hex representing the transaction
-   * @return rawtx
+   * Get userData
+   * @return userData
   **/
-  @ApiModelProperty(value = "Raw hex representing the transaction")
-  public String getRawtx() {
-    return rawtx;
+  @ApiModelProperty(value = "")
+  public GetTokenMetadataResponseMetadataOfUtxoUserData getUserData() {
+    return userData;
   }
 
-  public void setRawtx(String rawtx) {
-    this.rawtx = rawtx;
+  public void setUserData(GetTokenMetadataResponseMetadataOfUtxoUserData userData) {
+    this.userData = userData;
   }
 
 
@@ -60,21 +62,21 @@ public class GetRawTxResponse {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    GetRawTxResponse getRawTxResponse = (GetRawTxResponse) o;
-    return Objects.equals(this.rawtx, getRawTxResponse.rawtx);
+    GetTokenMetadataResponseMetadataOfUtxo getTokenMetadataResponseMetadataOfUtxo = (GetTokenMetadataResponseMetadataOfUtxo) o;
+    return Objects.equals(this.userData, getTokenMetadataResponseMetadataOfUtxo.userData);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(rawtx);
+    return Objects.hash(userData);
   }
 
 
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
-    sb.append("class GetRawTxResponse {\n");
-    sb.append("    rawtx: ").append(toIndentedString(rawtx)).append("\n");
+    sb.append("class GetTokenMetadataResponseMetadataOfUtxo {\n");
+    sb.append("    userData: ").append(toIndentedString(userData)).append("\n");
     sb.append("}");
     return sb.toString();
   }
