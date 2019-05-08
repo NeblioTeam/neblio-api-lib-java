@@ -4,7 +4,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**meta** | [**List&lt;GetTokenMetadataResponseMetadataOfIssuenceDataUserDataMeta&gt;**](GetTokenMetadataResponseMetadataOfIssuenceDataUserDataMeta.md) |  |  [optional]
+**meta** | **List&lt;Object&gt;** |  |  [optional]
 
 
 
