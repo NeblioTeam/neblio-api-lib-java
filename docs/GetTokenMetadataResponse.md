@@ -9,6 +9,7 @@ Name | Type | Description | Notes
 **divisibility** | [**BigDecimal**](BigDecimal.md) | Decimal places the token is divisible to |  [optional]
 **lockStatus** | **Boolean** | Whether issuance of more tokens is locked |  [optional]
 **aggregationPolicy** | **String** | Whether the tokens are aggregatable |  [optional]
+**initialIssuanceAmount** | [**BigDecimal**](BigDecimal.md) | Total tokens issued in initial issuance |  [optional]
 **totalSupply** | [**BigDecimal**](BigDecimal.md) | Total number of tokens in supply |  [optional]
 **numOfHolders** | [**BigDecimal**](BigDecimal.md) | Total number of addresses this token is held at |  [optional]
 **numOfTransfers** | [**BigDecimal**](BigDecimal.md) | Total number of transactions of this token |  [optional]
@@ -17,7 +18,7 @@ Name | Type | Description | Notes
 **firstBlock** | [**BigDecimal**](BigDecimal.md) | Block number token was issued in |  [optional]
 **issuanceTxid** | **String** | TXID the token was issued with |  [optional]
 **issueAddress** | **String** | Address that issued the tokens |  [optional]
-**metadataOfIssuence** | [**GetTokenMetadataResponseMetadataOfIssuence**](GetTokenMetadataResponseMetadataOfIssuence.md) |  |  [optional]
+**metadataOfIssuance** | [**GetTokenMetadataResponseMetadataOfIssuance**](GetTokenMetadataResponseMetadataOfIssuance.md) |  |  [optional]
 **metadataOfUtxo** | [**GetTokenMetadataResponseMetadataOfUtxo**](GetTokenMetadataResponseMetadataOfUtxo.md) |  |  [optional]
 
 

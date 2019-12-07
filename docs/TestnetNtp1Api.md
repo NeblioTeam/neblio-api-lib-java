@@ -243,7 +243,7 @@ No authorization required
 
 <a name="testnetGetTokenMetadata"></a>
 # **testnetGetTokenMetadata**
-> GetTokenMetadataResponse testnetGetTokenMetadata(tokenid)
+> GetTokenMetadataResponse testnetGetTokenMetadata(tokenid, verbosity)
 
 Get Metadata of Token
 
@@ -258,8 +258,9 @@ Returns the metadata associated with a token.
 
 TestnetNtp1Api apiInstance = new TestnetNtp1Api();
 String tokenid = "tokenid_example"; // String | TokenId to request metadata for
+BigDecimal verbosity = new BigDecimal(); // BigDecimal | 0 (Default) is fastest, 1 contains token stats, 2 contains token holding addresses
 try {
-    GetTokenMetadataResponse result = apiInstance.testnetGetTokenMetadata(tokenid);
+    GetTokenMetadataResponse result = apiInstance.testnetGetTokenMetadata(tokenid, verbosity);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling TestnetNtp1Api#testnetGetTokenMetadata");
@@ -272,6 +273,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **tokenid** | **String**| TokenId to request metadata for |
+ **verbosity** | **BigDecimal**| 0 (Default) is fastest, 1 contains token stats, 2 contains token holding addresses | [optional]
 
 ### Return type
 
@@ -288,7 +290,7 @@ No authorization required
 
 <a name="testnetGetTokenMetadataOfUtxo"></a>
 # **testnetGetTokenMetadataOfUtxo**
-> GetTokenMetadataResponse testnetGetTokenMetadataOfUtxo(tokenid, utxo)
+> GetTokenMetadataResponse testnetGetTokenMetadataOfUtxo(tokenid, utxo, verbosity)
 
 Get UTXO Metadata of Token
 
@@ -304,8 +306,9 @@ Returns the metadata associated with a token for that specific utxo instead of t
 TestnetNtp1Api apiInstance = new TestnetNtp1Api();
 String tokenid = "tokenid_example"; // String | TokenId to request metadata for
 String utxo = "utxo_example"; // String | Specific UTXO to request metadata for
+BigDecimal verbosity = new BigDecimal(); // BigDecimal | 0 (Default) is fastest, 1 contains token stats, 2 contains token holding addresses
 try {
-    GetTokenMetadataResponse result = apiInstance.testnetGetTokenMetadataOfUtxo(tokenid, utxo);
+    GetTokenMetadataResponse result = apiInstance.testnetGetTokenMetadataOfUtxo(tokenid, utxo, verbosity);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling TestnetNtp1Api#testnetGetTokenMetadataOfUtxo");
@@ -319,6 +322,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **tokenid** | **String**| TokenId to request metadata for |
  **utxo** | **String**| Specific UTXO to request metadata for |
+ **verbosity** | **BigDecimal**| 0 (Default) is fastest, 1 contains token stats, 2 contains token holding addresses | [optional]
 
 ### Return type
 

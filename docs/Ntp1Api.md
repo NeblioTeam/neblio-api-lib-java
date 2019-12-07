@@ -243,7 +243,7 @@ No authorization required
 
 <a name="getTokenMetadata"></a>
 # **getTokenMetadata**
-> GetTokenMetadataResponse getTokenMetadata(tokenid)
+> GetTokenMetadataResponse getTokenMetadata(tokenid, verbosity)
 
 Get Metadata of Token
 
@@ -258,8 +258,9 @@ Returns the metadata associated with a token.
 
 Ntp1Api apiInstance = new Ntp1Api();
 String tokenid = "tokenid_example"; // String | TokenId to request metadata for
+BigDecimal verbosity = new BigDecimal(); // BigDecimal | 0 (Default) is fastest, 1 contains token stats, 2 contains token holding addresses
 try {
-    GetTokenMetadataResponse result = apiInstance.getTokenMetadata(tokenid);
+    GetTokenMetadataResponse result = apiInstance.getTokenMetadata(tokenid, verbosity);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling Ntp1Api#getTokenMetadata");
@@ -272,6 +273,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **tokenid** | **String**| TokenId to request metadata for |
+ **verbosity** | **BigDecimal**| 0 (Default) is fastest, 1 contains token stats, 2 contains token holding addresses | [optional]
 
 ### Return type
 
@@ -288,7 +290,7 @@ No authorization required
 
 <a name="getTokenMetadataOfUtxo"></a>
 # **getTokenMetadataOfUtxo**
-> GetTokenMetadataResponse getTokenMetadataOfUtxo(tokenid, utxo)
+> GetTokenMetadataResponse getTokenMetadataOfUtxo(tokenid, utxo, verbosity)
 
 Get UTXO Metadata of Token
 
@@ -304,8 +306,9 @@ Returns the metadata associated with a token for that specific utxo instead of t
 Ntp1Api apiInstance = new Ntp1Api();
 String tokenid = "tokenid_example"; // String | TokenId to request metadata for
 String utxo = "utxo_example"; // String | Specific UTXO to request metadata for
+BigDecimal verbosity = new BigDecimal(); // BigDecimal | 0 (Default) is fastest, 1 contains token stats, 2 contains token holding addresses
 try {
-    GetTokenMetadataResponse result = apiInstance.getTokenMetadataOfUtxo(tokenid, utxo);
+    GetTokenMetadataResponse result = apiInstance.getTokenMetadataOfUtxo(tokenid, utxo, verbosity);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling Ntp1Api#getTokenMetadataOfUtxo");
@@ -319,6 +322,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **tokenid** | **String**| TokenId to request metadata for |
  **utxo** | **String**| Specific UTXO to request metadata for |
+ **verbosity** | **BigDecimal**| 0 (Default) is fastest, 1 contains token stats, 2 contains token holding addresses | [optional]
 
 ### Return type
 

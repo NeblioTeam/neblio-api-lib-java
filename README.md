@@ -1,8 +1,8 @@
 # neblioapi
 
 Neblio REST API Suite
-- API version: 1.2.4
-  - Build date: 2019-05-08T22:22:47.924Z[UTC]
+- API version: 1.3.0
+  - Build date: 2019-12-07T00:42:34.446043Z[UTC]
 
 APIs for Interacting with NTP1 Tokens & The Neblio Blockchain
 
@@ -178,10 +178,10 @@ Class | Method | HTTP request | Description
  - [GetTokenHoldersResponseHolders](docs/GetTokenHoldersResponseHolders.md)
  - [GetTokenIdResponse](docs/GetTokenIdResponse.md)
  - [GetTokenMetadataResponse](docs/GetTokenMetadataResponse.md)
- - [GetTokenMetadataResponseMetadataOfIssuence](docs/GetTokenMetadataResponseMetadataOfIssuence.md)
- - [GetTokenMetadataResponseMetadataOfIssuenceData](docs/GetTokenMetadataResponseMetadataOfIssuenceData.md)
- - [GetTokenMetadataResponseMetadataOfIssuenceDataUserData](docs/GetTokenMetadataResponseMetadataOfIssuenceDataUserData.md)
- - [GetTokenMetadataResponseMetadataOfIssuenceDataUserDataMeta](docs/GetTokenMetadataResponseMetadataOfIssuenceDataUserDataMeta.md)
+ - [GetTokenMetadataResponseMetadataOfIssuance](docs/GetTokenMetadataResponseMetadataOfIssuance.md)
+ - [GetTokenMetadataResponseMetadataOfIssuanceData](docs/GetTokenMetadataResponseMetadataOfIssuanceData.md)
+ - [GetTokenMetadataResponseMetadataOfIssuanceDataUserData](docs/GetTokenMetadataResponseMetadataOfIssuanceDataUserData.md)
+ - [GetTokenMetadataResponseMetadataOfIssuanceDataUserDataMeta](docs/GetTokenMetadataResponseMetadataOfIssuanceDataUserDataMeta.md)
  - [GetTokenMetadataResponseMetadataOfUtxo](docs/GetTokenMetadataResponseMetadataOfUtxo.md)
  - [GetTokenMetadataResponseMetadataOfUtxoUserData](docs/GetTokenMetadataResponseMetadataOfUtxoUserData.md)
  - [GetTransactionInfoResponse](docs/GetTransactionInfoResponse.md)
